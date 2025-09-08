@@ -18,7 +18,8 @@ $(call inherit-product, vendor/superior/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_SUPPORTS_QUICK_TAP := true
-
+BUILD_WITH_GAPPS := true
+SUPERIOR_EDITION := GAPPS
 TARGET_USES_AOSP_RECOVERY := true
 
 PRODUCT_NAME := superior_mojito
