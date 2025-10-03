@@ -16,11 +16,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_PIXEL_CHARGER := true
-TARGET_SUPPORTS_QUICK_TAP := true
-BUILD_WITH_GAPPS := false
-SUPERIOR_EDITION := Vanilla
-TARGET_USES_AOSP_RECOVERY := true
 
 PRODUCT_NAME := lineage_mojito
 PRODUCT_DEVICE := mojito
