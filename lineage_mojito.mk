@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some common SuperiorOS stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -22,7 +22,7 @@ BUILD_WITH_GAPPS := false
 SUPERIOR_EDITION := Vanilla
 TARGET_USES_AOSP_RECOVERY := true
 
-PRODUCT_NAME := superior_mojito
+PRODUCT_NAME := lineage_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
