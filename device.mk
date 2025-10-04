@@ -421,10 +421,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     android.hardware.radio.deprecated@1.0.vendor
 
-# Remove packages
-PRODUCT_PACKAGES += \
-    rmv
-
 # Sensors
 PRODUCT_PACKAGES += \
     libsensorndkbridge
